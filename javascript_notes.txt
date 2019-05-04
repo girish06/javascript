@@ -30,3 +30,38 @@ JS Intro:
 4. can hide html elements
 5. Can show html elements
 
+JS where to
++++++++++++++
+In html javascript should be embedded in script tag.
+java script function is a block of code executed when its called.
+scripts can be placed in head tag or body tag or in both.
+
+External script
+
+External javascript advantages.
+ -> seperates the html and js code
+ -> easier to maintain html and js code.
+ -> cached js file result in to speed up the pages.
+
+External javasccript file must be specified with full path.
+
+JS outputs:
++++++++++++++
+
+Javascript display possibilties.
+
+1. writing into html element using ,  innerHTML.
+2. writing into html output using, document.write().
+     Note:  Never  call the document.write after the document finished loading. it will overwrite the whole document
+            should be used only for testing.
+3. writing into alert box , usig window.alert().
+
+4. writing into browser console,using conosle.log().
+
+
+
+JS stateMents:
++++++++++++++++
+
+
+
