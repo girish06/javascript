@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <script>
+      function picChange() {
+        document.getElementById("imgid").src ="pics/IMG_20181021_162258.jpg";
+      }
+      function picChangeNormal() {
+         document.getElementById("imgid").src ="pics/IMG_20181021_162229.jpg";
+      }
+
+    </script>
+  </head>
+  <body>
+    <p>Change the html Attribute</p>
+    <img id='imgid' src="pics/IMG_20181021_162229.jpg" style="width:100px">
+    <button onclick="picChange()">change the picture</button>
+    <button onClick="picChangeNormal()">change the picture back</button>
+  </body>
+</html>

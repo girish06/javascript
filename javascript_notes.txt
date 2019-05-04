@@ -1,0 +1,32 @@
+04/05/2019
+======================
+w3 schools
+
+JS Home:
++++++++++++++
+
+programming language of html and web
+Behaviour of web pages
+Many  desktop and server programmer use javascript
+Some databases use javascript as their programming language.
+
+History:
+
+Introduced by brendan Eich in 1995.
+
+
+JS Intro:
++++++++++++++
+
+1.can change html content
+  JS use getElementById method to get the element refered
+  we can use double quotes or single quotes.
+
+2. can change html attributes
+    eg.  img attributes
+    document.getElementById("imgid").src 
+ 
+3. can change html style css
+4. can hide html elements
+5. Can show html elements
+
