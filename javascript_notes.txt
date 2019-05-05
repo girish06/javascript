@@ -72,7 +72,11 @@ lower caml case:
 JS character set:
  ->javascript follows unicode character set.
 
+JS COMMENTS:
+++++++++++++
 
+single line comment
+multiline comment
 
 
 
