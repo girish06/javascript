@@ -105,7 +105,54 @@ Js arthimetic:
 Js Operators:
 +++++++++++++
 
-   
+Js Assignment operator
+
+=   :  x = y   : x = y
++=  :  x += y  : x = x + y
+-=  :  x -= y  : x = x - y 
+*=  :  x *= y  : x = x * y
+/=  :  x /= y  : x = x / y
+%=  :  x %= y  : x = x % y
+**= :  x **= y : x = x ** y
+
+
+Js string operator
+
+Js strings and numbers
+
+Js comparision operator
+
+==   : equal too
+===  : equal too and equal type
+!=   : not equal too
+!==  : not equal too not equal type
+>    : greater than
+<    : lesser than
+>=   : greater than or equal too
+<=   : lesser than or equal too
+?    : ternary operator
+
+Js logical operator:
+
+&& : logical AND
+|| : logical OR
+!  : logical NOT
+
+Js type operators:
+ -> typeof
+     returns the type of the variable
+ -> instanceof
+     returns true if an object is an instance of object type.
+
+Js bitwise operator: // needs work and needs understanding
+  &
+  |
+  ~
+  ^
+  << 
+  >>
+  >>>
+ 
    
 
 
