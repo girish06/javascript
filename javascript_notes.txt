@@ -78,6 +78,35 @@ JS COMMENTS:
 single line comment
 multiline comment
 
+JS Variables: 
++++++++++++++
+
+Js identifiers:(already done)
+
+Js Assignment operator ( = ) and equal to operator is different(==)
+
+Js Datatypes: 
+
+Js declaring or creating variables
+  can declare a variable using the keyword  var
+  if the variable is not assigned with any value then technically it has the value undefined.
+
+Js one statement,many variables.
+
+Js value undefined
+   Declared a variable but it doesn,t have any value then the it throws error as undefined.
+
+Js redeclaring the variables.
+   it will lose it value.
+
+Js arthimetic:
+
+
+Js Operators:
++++++++++++++
+
+   
+   
 
 
 
