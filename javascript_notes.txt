@@ -1,3 +1,83 @@
+05/05/2019
+JS stateMents:
++++++++++++++++
+
+computer program is a list of instructions and these instructions are called as statements.
+
+These statements can be variables,expressions,operators,keywords and comments
+
+add a semicolon at the end of the statement.
+
+Its is always good to break the code after the operators when it exceeds 80 characters.
+
+statements always have keywords which js understand that to execute.
+
+
+JS Syntax:
+++++++++++++++++
+
+
+Js defines two type of values
+1. literals - which are fixed values
+2. varibles - variable values are called are variables
+
+JS Literals:
+ numbers can be with or without decimal
+ strings are enclosed with single or double quotes.
+
+Js varibles:
+
+varibles used to store the values.
+javascript uses var keyword to declare the variables.
+Equal sign is used to assign the values to the variables.	
+
+
+Js operators
++,-,*,/
+
+JS expressions
+   Its a combination of values,varibles,operatores which computes the values.
+
+JS keywords:
+ eg. var
+
+JS Comments:
+
+ double slash is a comment
+ statements enclosed within /** and */ 
+
+JS identifiers:
+
+used to name varibles with rules 
+
+ -> should not start with number
+ -> can start with underscore
+ -> cannot be any javascript reserved keywords.
+ -> can be dollar sign.
+
+
+JS case sensitive:
+  ->js doesnot interpret Var or VAR,since it evalutes only  var.
+ 
+JS Camel case:
+Hypens:
+   not allowed since it is a reserved keyword for subtraction.
+underscore
+   use underscorer to get combine two different words
+upper camle case (pascal case):
+  first letter of each word can be start with uppercase.
+lower caml case:
+  second word first character should be uppercase.
+
+JS character set:
+ ->javascript follows unicode character set.
+
+
+
+
+
+
+
 04/05/2019
 ======================
 w3 schools
@@ -60,8 +140,6 @@ Javascript display possibilties.
 
 
 
-JS stateMents:
-+++++++++++++++
 
 
 
