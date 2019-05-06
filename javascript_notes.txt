@@ -1,3 +1,31 @@
+06/05/2019
+
+JS Arthimetic:
++++++++++++++++
+
+JS Arthimetic Operators:
+ -> arthimetic operations
+ -> operands and operators
+
+  1. Add
+  2. sub
+  3. mul
+  4. div
+  5. remainder
+  6. increment operator
+  7. Decrement operator
+  8. exponential
+  9. Math.pow
+  10.operator precedence
+    -> higher precedence have for brackets
+    -> then for operators for mul and div
+    -> then for addition and substraction
+    -> if no brackets are there then its execution will be from left to right.
+
+
+
+
+=======================================================================================================================================================
 05/05/2019
 JS stateMents:
 +++++++++++++++
@@ -15,7 +43,6 @@ statements always have keywords which js understand that to execute.
 
 JS Syntax:
 ++++++++++++++++
-
 
 Js defines two type of values
 1. literals - which are fixed values
@@ -139,6 +166,7 @@ Js logical operator:
 !  : logical NOT
 
 Js type operators:
+
  -> typeof
      returns the type of the variable
  -> instanceof
@@ -151,12 +179,7 @@ Js bitwise operator: // needs work and needs understanding
   ^
   << 
   >>
-  >>>
- 
-   
-
-
-
+  >>   
 
 04/05/2019
 ======================

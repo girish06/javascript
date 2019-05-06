@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  JS Arthimetic samples
+</title>
+</head>
+<body>
+  <h1>JS Arthimetic examples</h1>
+  <p id ="add"></p>
+  <p id ="sub"></p>
+  <p id ="mul"></p>
+  <p id ="div"></p>
+  <p id ="mod"></p>
+  <p id ="inc"></p>
+  <p id ="dec"></p>
+  <p id ="exp"></p>
+  <p id ="math_pow"></p>
+  <script>
+    // Declaring the varibles
+   var a = 5;
+   var b = 2;
+
+   // addition
+   var add = a + b;
+
+   // subtraction
+   var sub = a - b;
+
+   // multiply
+   var mul = a * b;
+
+   // division
+   var div = a / b;
+
+   // modulus (reminder)
+   var mod = a % b;
+
+   // increment
+   a ++;
+   var i = a;
+
+   // decrement.
+   b--;
+   var d = b;
+
+   // Exponentiation
+
+   var expo = a ** 3;
+
+  document.getElementById('add').innerHTML = add;
+  document.getElementById('sub').innerHTML = sub;
+  document.getElementById('mul').innerHTML = mul;
+  document.getElementById('div').innerHTML = div;
+  document.getElementById('mod').innerHTML = mod;
+  document.getElementById('inc').innerHTML = i;
+  document.getElementById('dec').innerHTML = d;
+  document.getElementById('exp').innerHTML = expo;
+  document.getElementById('math_pow').innerHTML = Math.pow(a,2);
+  </script>
+</body>
+</html>
