@@ -1,3 +1,84 @@
+09/06/2019
+
+JS Assignment
++++++++++++++
+Already completed the excercise.
+
+-> js variables hold various datatype like number,string and object.
+   
+
+ js types are dynamic
+   same variable can hold different data types. may be it can be undefined, number, string , object
+
+ js strings
+   string is a series of characters 
+   string can be enlclosed with double quotes or single quotes.
+ 
+ js numbers.
+   js has only one type of number
+   number can be with or without decimals
+    
+   extra large or extra small can be exposed with scientific (exponential)notation
+
+ js booleans:
+   can be true of false
+    boolean are often used in conditional testing.
+
+ js arrays:
+   arrays are enclosed by square brackets
+   array item are seperated by commas.
+   array index value starts from 0.
+ 
+ js objects:
+    javascript objects are written with curly braces {}.
+    object properties are written in key value pair seperated by commas.
+
+ js typeof operator:
+     returns the type of variable
+
+ js undefined
+   if the varible is defined and the variable does not have any value then its is undefined and its type also undefined.
+   we can make the variable as emptied if we assign the value as undefined to the variable.
+
+ js empty value
+   	
+ js null value:
+     in javascript the data typeof of null is a object.
+     we can empty the object by setting it as null
+
+ js diff between undefined and null.
+     undefined and null are equal in value but they are different in datatype.
+
+ js primitive datatypes:
+     single simple data value.
+     It does not contains properties and methods
+        typeof 	operator can return 
+            -> number 
+            -> string
+            -> undefined
+            -> boolean
+
+ js complex data type.
+      type of operator will return object ,function 
+      typeof operator will return as object for arrays , null  and object.
+      in javascripts arrays are objects
+      
+
+
+
+
+
+    
+
+
+
+    
+  
+
+   
+
+
+
 06/05/2019
 
 JS Arthimetic:

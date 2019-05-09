@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS DATATYPES</title>
+</head>
+<body>
+  <h1>Javascript datatypes</h1>
+  <p id="p1"></p>
+  <p id="p2"></p>
+  <p id="p3"></p>
+  <p id="p4"></p>
+  <script>
+    var x = 6 + "girish";
+    // Operators are evaluvated from left to right.
+    var y = 6 + 5 + "girish";
+    // After string all the number also will be considered as a string.
+    var z = "girish" + 10;
+
+    var a = "girish" + 10 + 6;
+
+    document.getElementById('p1').innerHTML = x;
+    document.getElementById('p2').innerHTML = y;
+    document.getElementById('p3').innerHTML = z;
+    document.getElementById('p4').innerHTML = a;
+  </script>
+</body>
+</html>
