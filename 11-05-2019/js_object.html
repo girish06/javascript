@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Js objects</title>
+ </head>
+   <body>
+      <h1>Js object concepts</h1>
+      <p id = "obj"></p>
+      <p id = "fullname"></p>
+      <script>
+       // Declaring the object.
+       var obj = {
+         name: "girish",
+         lastName: "v",
+         age : 27,
+         gender: "male",
+         fullname : function() {
+           return this.name +" "+ this.lastName;
+         }
+       };
+       document.getElementById('obj').innerHTML = obj.name + "age is " + obj["age"];
+       document.getElementById('fullname').innerHTML = obj.fullname();
+      </script>
+   </body>
+</html>

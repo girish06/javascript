@@ -1,8 +1,102 @@
+11/05/2019
+
+JS Functions:
++++++++++++++
+
+Js functions are block of code to perform a task.
+Js functions are executed when in invoked or called.
+
+  syntax:
+   
+  javascript function is defined by "function" keyword followed by name and followed by parentheses ().
+  function name can contains which had the rules of similar to variables.
+  parenthesis can contains parameters seperated by comma.
+  The code has to be executed should be inside the curly braces {}.
+  Function arguments are the values received by the function when its called.
+  Inside the function the arguments behave like local variables.
+
+ function invocation:
+  
+   The code inside the function is executed when it is called or invoked.
+    -> when an event accours eg . on click of button
+    -> when it is invoked in js code.
+    -> automatically invoked. // needs to check
+
+  Function return:
+    
+   After the return function will stop executing.
+   
+  why functions?
+  
+   Resuabilty.
+   we can same function with different parametes to get different output.
+
+
+JS Objects:
++++++++++++++++
+
+javascript objects are like variables, but it holds many values
+values in the format of name value pair seperated by colon.
+
+  Js properties:
+   name value pair in an object are called js properties.
+  
+    Accessing the properties:
+      we can access the properties in two different ways
+
+      1. objectname.propertyname
+      2. objectname["propertyname"]
+  
+  Js methods:
+ 
+   Object also can have methods	
+   Methods are action that can be performed in objects
+   Methods are stored in object properties as a function definition.
+
+  Js this keyword:
+
+    This keyword refers to the owner of the function.
+  
+  Accessing the function.
+    we can access the properties and  method of object.
+
+    syntax: 
+         objectname.methodname().
+    Note. we are not using the parentheses then it will return the function definition.
+
+
+JS Events:
++++++++++++
+
+Html events are the one that happen to html elements
+when javascript used on the html page, they can react on those html elements.
+
+ Html elements:
+  html events are detected and js events perform actions on it.
+ 
+ what javascript can do.
+  1. can do changes once the page is loaded 
+  2. can do changes once the page is  closed
+  3. click  event to perform some action
+  4. can validate the user input.
+  5. HTML events can execute the js code directly.
+  6. HTML events can call the js function directly.
+
+  
+
+
+  
+  
+  
+
 09/06/2019
 
 JS Assignment
 +++++++++++++
 Already completed the excercise.
+
+JS Datatype:
++++++++++++++
 
 -> js variables hold various datatype like number,string and object.
    
@@ -64,21 +158,7 @@ Already completed the excercise.
       in javascripts arrays are objects
       
 
-
-
-
-
-    
-
-
-
-    
-  
-
-   
-
-
-
+=====================================================================================================================================================================
 06/05/2019
 
 JS Arthimetic:
@@ -106,7 +186,7 @@ JS Arthimetic Operators:
 
 
 
-=======================================================================================================================================================
+=====================================================================================================================================================================
 05/05/2019
 JS stateMents:
 +++++++++++++++

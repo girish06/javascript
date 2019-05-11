@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title></title>
+ </head>
+<body>
+  <h1> Javascript events</h1>
+  <p id="time"></p>
+  <p id="gettime"></p>
+  <!.. directly calling the js event in html attributes. !>
+  <button onclick="document.getElementById('time').innerHTML = Date()">Time</button>
+  <button onclick = "timeget()">Get Time</button>
+  <br>
+  <button onclick="this.innerHTML = Date()">Replace time</button>
+  <script>
+    function timeget() {
+      document.getElementById('gettime').innerHTML= Date();
+    }
+  </script>
+</body>
+</html>
