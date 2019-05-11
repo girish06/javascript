@@ -82,8 +82,29 @@ when javascript used on the html page, they can react on those html elements.
   5. HTML events can execute the js code directly.
   6. HTML events can call the js function directly.
 
+JS Strings:
+++++++++++++
+   JS strings:
+     strings must be enclosed with single quotes or double quotes.
+     we can use quotes inside the string unless it matches the surrounding string.
+   
+   string length:
+     var.length 
+ 
   
+   special characters:
+     \' for quotes
 
+   breaking long line of code.
+     If code is exceeding 80 characters long the good way to break the line at the operator.
+     we can break the code using \ between strings , but it was supoorted universally 
+     The best way to break the string by concat operator.
+     
+   string can be objects.
+     variables can be defined as object with "new" keyword
+     NOTE: dont create strings as object since	it slows down the execution time,  and might with new keyword will 
+            produce unexcepted result
+    
 
   
   
