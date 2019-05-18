@@ -1,3 +1,84 @@
+18/05/2019
+
+JS String methods:
+
+length:
+Return the length of the string.
+
+Finding string
+
+ 1. indexof
+    return the posistion of the string with first accurance in a string
+    postion wil be counted that it starts from zero.
+ 
+ 2 .lastIndexof
+      This method return the last accurance of the string.
+  
+  Note: both indexof and lastindexof does not find a value. it gives output as -1
+
+
+searching a string in a string
+    1.search
+     This method return the first accurance of the string.
+
+Extracting string parts:
+    1. slice
+        returns output based on the length its specified   
+        it has two parameters and second paramter is optional and gives the rest of the string from the position we made slice
+        It can accept negatives values
+    2. substring
+        This method cannot accept negatives values.
+    
+    3. substr
+        returns output based on the length its specified   
+        it has two parameters and second paramter is optional and gives the rest of the string from the position we made slice
+        It can accept negatives values
+
+Replacing the string:
+   replace the string which is to be replaced with another.
+   by default this method replace only the first match.
+   To make replace the string globally ,use /g
+   Its a case sensitive.
+         To replace case sensitive use /i flag 
+
+Convert string to uppercase and lowerecase.
+  toUppercase();
+  toLowerCase();
+
+Concat method
+   concat() it join two strings.
+   concat method and plus operator both uses the same operation.
+
+trim method
+   trim method removes white space in both side of the string.
+   trim method not supported in internet explorer.(can use regular expression)
+   string.prototype // needs to check on that
+
+Extracting string characters:
+    charAt(position)
+       returns the char at the specified posistion
+    charCodeAt(position)
+       returns the char value of utf-8 format
+    Property access []
+      Ecma script 5 allows property access in strings from 2009
+      does not support in internet explorer 7 or earlier
+      looks like array but not.
+      if no char is found returns undefined.
+
+Converting string to array.
+
+
+
+
+
+  
+
+   
+
+
+  
+
+=====================================================================================================================================================================
 11/05/2019
 
 JS Functions:
@@ -108,7 +189,7 @@ JS Strings:
 
   
   
-  
+=====================================================================================================================================================================
 
 09/06/2019
 

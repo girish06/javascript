@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+</html>
+ <head>
+   <title></title>
+ </head>
+ <body>
+  <h1>string methods</h1>
+  <p><b>string length</b></p>
+  <p id ="slen"></p>
+  <p><b>Finding a string indexOf</b></p>
+  <p id ="fstr"></p>
+  <p><b>Finding a string lastIndexOf</b></p>
+  <p id = "lstr"></p>
+  <p id = "strno"></p>
+  <p><b>second paramter</b></p>
+  <p id = "str-sp"></p>
+  <p id = "str-spl"></p>
+  <p><b>search</b></p>
+  <p id = "str-search"></p>
+  <p><b>Extracting the string parts</b></p>
+  <p id = "str-slice"></p>
+  <p id = "str-slice-n"></p>
+  <p id = "str-slice-wo-sp"></p>
+  <p id = "str-slice-wo-sp-n"></p>
+  <p id = "sub-str"></p>
+  <p id = "sub-str-wsp"></p>
+  <p>substr<p>
+  <p id = "substr"></p>
+  <p id = "substr-wp"></p>
+  <p id = "substr-wnp"></p>
+  <p><b>String replace</b></p>
+  <p id = "str-rep"></p>
+  <p id = "str-rep-wcs"></p>
+  <p id = "str-rep-g"></p>
+  <p><b>converting uppercase  and lowercase</b></p>
+  <p id = "upcase"></p>
+  <p id = "lcse"></p>
+  <p><b>concat</b></p>
+  <p id = "concat"></p>
+  <p><b>trim</b></p>
+  <p id = "trim"></p>
+  <p><b>Extracting string characters</b></p>
+  <p id = "charat"></p>
+  <p id = "charat-code"></p>
+  <p><b>property access</b></p>
+  <p id ="pro-access"></p>
+  <p><b>convert string to array</b></p>
+  <p id = "str-arr"></p>
+   <script>
+      var len = "girish";
+      document.getElementById('slen').innerHTML = len.length;
+      var upcase = "JS LEARNING";
+
+      var fstring = "welcome to javascript world examples and learning world";
+      // finding a string by indexOf.
+      document.getElementById('fstr').innerHTML = fstring.indexOf("to");
+      // finding a string by lastIndexOf.
+      document.getElementById('lstr').innerHTML = fstring.lastIndexOf("world");
+      // If no value found returns -1
+      document.getElementById('strno').innerHTML = fstring.lastIndexOf("test");
+      // using second parameter indexOf.
+      document.getElementById('str-sp').innerHTML = fstring.indexOf("world", 30);
+      // using second parameter in lastIndexOf.
+      document.getElementById('str-spl').innerHTML = fstring.lastIndexOf("world", 30);
+      // searching the string in a string.
+      document.getElementById("str-search").innerHTML = fstring.search("world");
+      // extracting the string parts by slice.
+      document.getElementById("str-slice").innerHTML = fstring.slice(10, 20);
+      // extracting the string parts by slice by negative value.
+      document.getElementById("str-slice-n").innerHTML = fstring.slice(-20, -10);
+      // extracting the string parts by slice by not having the second parameter.
+      document.getElementById("str-slice-wo-sp").innerHTML = fstring.slice(10);
+      // extracting the string parts by slice by not having the second parameter and with negative value.
+      document.getElementById("str-slice-wo-sp-n").innerHTML = fstring.slice(-10);
+      // substring method without second parameter.
+      document.getElementById("sub-str").innerHTML = fstring.substring(12);
+      // substring method with second parameter.
+      document.getElementById("sub-str-wsp").innerHTML = fstring.substring(5,10);
+      // substr method
+      document.getElementById('substr').innerHTML = fstring.substr(2 ,3);
+      // substr with one paremeter.
+      document.getElementById('substr-wp').innerHTML = fstring.substr(2);
+      // substr with negative parameters.
+      document.getElementById('substr-wnp').innerHTML = fstring.substr(-5);
+      // string replace.
+      document.getElementById('str-rep').innerHTML = fstring.replace("world", "w3");
+      // string replace with case sensitive.
+      document.getElementById('str-rep-wcs').innerHTML = fstring.replace(/worlD/i, "w3");
+      // string replace globally use /g
+      document.getElementById('str-rep-g').innerHTML = fstring.replace(/world/g, "w3");
+      // change the string to upper case.
+      document.getElementById('upcase').innerHTML = fstring.toUpperCase();
+      // change the string to lower case.
+      document.getElementById('lcse').innerHTML = upcase.toLowerCase();
+      // concat operator
+      var name = "girish";
+      var lastname = "v";
+      document.getElementById('concat').innerHTML = name.concat(' ',lastname);
+      // trim function.
+      var trimdata = " hello               ";
+      document.getElementById("trim").innerHTML = trimdata.trim();
+      // Extracting string characters charAt.
+      document.getElementById('charat').innerHTML = trimdata.charAt(4);
+      // Extracting string characters charcodeAt
+      document.getElementById('charat-code').innerHTML = trimdata.charCodeAt(4);
+      // property access:
+      document.getElementById('pro-access').innerHTML = trimdata[2];
+      // converting to string to array.
+      var string = "hello, girish, 28,";
+      var arr = string.split(",");
+      document.getElementById('str-arr').innerHTML = arr[2]; 
+
+   </script>
+ </body>
+</html>
