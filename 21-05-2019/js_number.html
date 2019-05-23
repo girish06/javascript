@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+      Js Number
+  </title>
+<body>
+  <h1>Javascript Numbers</h1>
+  <p id = "number_type"></p>
+  <p id = "expo"></p>
+  <p id = "extno"></p>
+  <p id = "decimax"></p>
+  <p id = "decimax_exp"></p>
+  <script>
+    // Number can be with or without decimal.
+    var x = 3.12;
+    var y = 3;
+    document.getElementById('number_type').innerHTML = x + "<br>" + y;
+
+    // exponential
+    var lexp = 23e5;
+    var sexp = 23e-5;
+    document.getElementById('expo').innerHTML = lexp + "<br>" + sexp;
+
+    // accurate number length upto 15.
+    var exactNo = 99999999999999;
+    var noVar = 9999999999999999;
+    document.getElementById('extno').innerHTML = exactNo + "<br>" + noVar;
+
+    // maximum number of decimals is 17
+    var deci1 = 0.2;
+    var deci2 = 0.1;
+    var deci3 = (0.2*10 + 0.1*10)/10;
+    document.getElementById('decimax').innerHTML = deci1 + deci2;
+    document.getElementById('decimax_exp').innerHTML = deci3;
+
+  </script>
+</body>
+</html>

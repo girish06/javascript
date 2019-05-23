@@ -1,3 +1,29 @@
+22/5/2019
+
+Numeric Strings.
+  javascript by default it will convert  the string to integer.
+
+=====================================================================================================================================================================
+21/05/2019
+
+JS Numbers
+
+javascript numbers are only one type.
+Either can be with or without decimals
+
+Extra large and extra small defined by scientific exponent notation.
+
+Javascript numbers are always 64-bit floating point.
+   unlike other programming languages javascript numbers are not like integer , float.short , long etc.
+   javascript numbers are always stored as double precision numbers, following the international IEEE 754 standard.
+
+Precision:
+   In javascript the maximum number that can be accurate is upto 15 Numbers.
+   In javascript the maximum number that can be in decimal is 17.
+
+Adding numbers and strings.
+  // already worked in previous sessions
+=====================================================================================================================================================================
 18/05/2019
 
 JS String methods:
@@ -10,10 +36,10 @@ Finding string
  1. indexof
     return the posistion of the string with first accurance in a string
     postion wil be counted that it starts from zero.
- 
+
  2 .lastIndexof
       This method return the last accurance of the string.
-  
+
   Note: both indexof and lastindexof does not find a value. it gives output as -1
 
 
@@ -23,14 +49,14 @@ searching a string in a string
 
 Extracting string parts:
     1. slice
-        returns output based on the length its specified   
+        returns output based on the length its specified
         it has two parameters and second paramter is optional and gives the rest of the string from the position we made slice
         It can accept negatives values
     2. substring
         This method cannot accept negatives values.
-    
+
     3. substr
-        returns output based on the length its specified   
+        returns output based on the length its specified
         it has two parameters and second paramter is optional and gives the rest of the string from the position we made slice
         It can accept negatives values
 
@@ -39,7 +65,7 @@ Replacing the string:
    by default this method replace only the first match.
    To make replace the string globally ,use /g
    Its a case sensitive.
-         To replace case sensitive use /i flag 
+         To replace case sensitive use /i flag
 
 Convert string to uppercase and lowerecase.
   toUppercase();
@@ -71,12 +97,12 @@ Converting string to array.
 
 
 
-  
-
-   
 
 
-  
+
+
+
+
 
 =====================================================================================================================================================================
 11/05/2019
@@ -88,7 +114,7 @@ Js functions are block of code to perform a task.
 Js functions are executed when in invoked or called.
 
   syntax:
-   
+
   javascript function is defined by "function" keyword followed by name and followed by parentheses ().
   function name can contains which had the rules of similar to variables.
   parenthesis can contains parameters seperated by comma.
@@ -97,18 +123,18 @@ Js functions are executed when in invoked or called.
   Inside the function the arguments behave like local variables.
 
  function invocation:
-  
+
    The code inside the function is executed when it is called or invoked.
     -> when an event accours eg . on click of button
     -> when it is invoked in js code.
     -> automatically invoked. // needs to check
 
   Function return:
-    
+
    After the return function will stop executing.
-   
+
   why functions?
-  
+
    Resuabilty.
    we can same function with different parametes to get different output.
 
@@ -121,27 +147,27 @@ values in the format of name value pair seperated by colon.
 
   Js properties:
    name value pair in an object are called js properties.
-  
+
     Accessing the properties:
       we can access the properties in two different ways
 
       1. objectname.propertyname
       2. objectname["propertyname"]
-  
+
   Js methods:
- 
-   Object also can have methods	
+
+   Object also can have methods
    Methods are action that can be performed in objects
    Methods are stored in object properties as a function definition.
 
   Js this keyword:
 
     This keyword refers to the owner of the function.
-  
+
   Accessing the function.
     we can access the properties and  method of object.
 
-    syntax: 
+    syntax:
          objectname.methodname().
     Note. we are not using the parentheses then it will return the function definition.
 
@@ -154,9 +180,9 @@ when javascript used on the html page, they can react on those html elements.
 
  Html elements:
   html events are detected and js events perform actions on it.
- 
+
  what javascript can do.
-  1. can do changes once the page is loaded 
+  1. can do changes once the page is loaded
   2. can do changes once the page is  closed
   3. click  event to perform some action
   4. can validate the user input.
@@ -168,27 +194,27 @@ JS Strings:
    JS strings:
      strings must be enclosed with single quotes or double quotes.
      we can use quotes inside the string unless it matches the surrounding string.
-   
+
    string length:
-     var.length 
- 
-  
+     var.length
+
+
    special characters:
      \' for quotes
 
    breaking long line of code.
      If code is exceeding 80 characters long the good way to break the line at the operator.
-     we can break the code using \ between strings , but it was supoorted universally 
+     we can break the code using \ between strings , but it was supoorted universally
      The best way to break the string by concat operator.
-     
+
    string can be objects.
      variables can be defined as object with "new" keyword
-     NOTE: dont create strings as object since	it slows down the execution time,  and might with new keyword will 
+     NOTE: dont create strings as object since	it slows down the execution time,  and might with new keyword will
             produce unexcepted result
-    
 
-  
-  
+
+
+
 =====================================================================================================================================================================
 
 09/06/2019
@@ -201,19 +227,19 @@ JS Datatype:
 +++++++++++++
 
 -> js variables hold various datatype like number,string and object.
-   
+
 
  js types are dynamic
    same variable can hold different data types. may be it can be undefined, number, string , object
 
  js strings
-   string is a series of characters 
+   string is a series of characters
    string can be enlclosed with double quotes or single quotes.
- 
+
  js numbers.
    js has only one type of number
    number can be with or without decimals
-    
+
    extra large or extra small can be exposed with scientific (exponential)notation
 
  js booleans:
@@ -224,7 +250,7 @@ JS Datatype:
    arrays are enclosed by square brackets
    array item are seperated by commas.
    array index value starts from 0.
- 
+
  js objects:
     javascript objects are written with curly braces {}.
     object properties are written in key value pair seperated by commas.
@@ -237,7 +263,7 @@ JS Datatype:
    we can make the variable as emptied if we assign the value as undefined to the variable.
 
  js empty value
-   	
+
  js null value:
      in javascript the data typeof of null is a object.
      we can empty the object by setting it as null
@@ -248,17 +274,17 @@ JS Datatype:
  js primitive datatypes:
      single simple data value.
      It does not contains properties and methods
-        typeof 	operator can return 
-            -> number 
+        typeof 	operator can return
+            -> number
             -> string
             -> undefined
             -> boolean
 
  js complex data type.
-      type of operator will return object ,function 
+      type of operator will return object ,function
       typeof operator will return as object for arrays , null  and object.
       in javascripts arrays are objects
-      
+
 
 =====================================================================================================================================================================
 06/05/2019
@@ -319,7 +345,7 @@ Js varibles:
 
 varibles used to store the values.
 javascript uses var keyword to declare the variables.
-Equal sign is used to assign the values to the variables.	
+Equal sign is used to assign the values to the variables.
 
 
 Js operators
@@ -334,11 +360,11 @@ JS keywords:
 JS Comments:
 
  double slash is a comment
- statements enclosed within /** and */ 
+ statements enclosed within /** and */
 
 JS identifiers:
 
-used to name varibles with rules 
+used to name varibles with rules
 
  -> should not start with number
  -> can start with underscore
@@ -348,7 +374,7 @@ used to name varibles with rules
 
 JS case sensitive:
   ->js doesnot interpret Var or VAR,since it evalutes only  var.
- 
+
 JS Camel case:
 Hypens:
    not allowed since it is a reserved keyword for subtraction.
@@ -368,14 +394,14 @@ JS COMMENTS:
 single line comment
 multiline comment
 
-JS Variables: 
+JS Variables:
 +++++++++++++
 
 Js identifiers:(already done)
 
 Js Assignment operator ( = ) and equal to operator is different(==)
 
-Js Datatypes: 
+Js Datatypes:
 
 Js declaring or creating variables
   can declare a variable using the keyword  var
@@ -399,7 +425,7 @@ Js Assignment operator
 
 =   :  x = y   : x = y
 +=  :  x += y  : x = x + y
--=  :  x -= y  : x = x - y 
+-=  :  x -= y  : x = x - y
 *=  :  x *= y  : x = x * y
 /=  :  x /= y  : x = x / y
 %=  :  x %= y  : x = x % y
@@ -440,9 +466,9 @@ Js bitwise operator: // needs work and needs understanding
   |
   ~
   ^
-  << 
+  <<
   >>
-  >>   
+  >>
 
 04/05/2019
 ======================
@@ -470,8 +496,8 @@ JS Intro:
 
 2. can change html attributes
     eg.  img attributes
-    document.getElementById("imgid").src 
- 
+    document.getElementById("imgid").src
+
 3. can change html style css
 4. can hide html elements
 5. Can show html elements
@@ -503,9 +529,3 @@ Javascript display possibilties.
 3. writing into alert box , usig window.alert().
 
 4. writing into browser console,using conosle.log().
-
-
-
-
-
-
